@@ -4,8 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start:1": "node 01-runtime-and-cli/src/app.js Bruce 2000",
+    "start:2": "node 02-event-loop-and-async/src/file-manager.js",
+    "start:3": "node 03-buffers-and-streams/src/stream-pipeline.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
 }
