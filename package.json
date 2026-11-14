@@ -12,7 +12,9 @@
     "start:6": "node 06-auth-and-database/src/server.js",
     "test:4": "node 04-native-http-server/src/test-client.js",
     "test:5": "node 05-express-rest-api/src/test-client.js",
-    "test:6": "node 06-auth-and-database/src/test-client.js"
+    "test:6": "node 06-auth-and-database/src/test-client.js",
+    "devvault": "node Project-DevVault/server.js",
+    "test:vault": "node Project-DevVault/test-client.js"
   },
   "keywords": [],
   "type": "module",
