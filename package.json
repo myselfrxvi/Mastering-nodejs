@@ -7,7 +7,12 @@
     "start:1": "node 01-runtime-and-cli/src/app.js Bruce 2000",
     "start:2": "node 02-event-loop-and-async/src/file-manager.js",
     "start:3": "node 03-buffers-and-streams/src/stream-pipeline.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:4": "node 04-native-http-server/src/server.js",
+    "start:5": "node 05-express-rest-api/src/app.js",
+    "start:6": "node 06-auth-and-database/src/server.js",
+    "test:4": "node 04-native-http-server/src/test-client.js",
+    "test:5": "node 05-express-rest-api/src/test-client.js",
+    "test:6": "node 06-auth-and-database/src/test-client.js"
   },
   "keywords": [],
   "type": "module",

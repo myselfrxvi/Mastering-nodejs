@@ -4,7 +4,7 @@ const dbPath = path.join('06-auth-and-database', 'vault.db')
 export const db = new DatabaseSync(dbPath)
 
 db.exec(`
-    CREATE TABLE IF NOT EXISTS (
+    CREATE TABLE IF NOT EXISTS users (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     username TEXT UNIQUE NOT NULL,
     salt TEXT NOT NULL,
